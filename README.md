@@ -30,7 +30,7 @@ Tuned down Office 365's tracking but noticed Recent Documents are no longer appe
 
 ### Tracker Killer
 
-We all know Microsoft likes to track how many times you wiped your butt in the toiler. Unfortunately for them, we don't. This script is one of many to reduce Windows 10's tracking to sea-level while also being careful to avoid tripping any "dIsAbLeD tElEmEtrY" blockages across the OS. It's like walking over a minefield, but safer.
+We all know Microsoft likes to track how many times you wiped your butt in the toilet. Unfortunately for them, we don't. This script is one of many to reduce Windows 10's tracking to sea-level while also being careful to avoid tripping any "dIsAbLeD tElEmEtrY" blockages across the OS. It's like walking over a minefield, but safer.
 
 ### VPN Fixes
 
