@@ -9,13 +9,6 @@ if not "%errorlevel%" == "0" (
 	exit /b 1
 )
 
-echo "    - Adding missing Intel Dynamic Tuning menus"
-echo "If these already exist for you, adding them may overwrite the default settings."
-set /P c="Type 'Y' to continue, or 'N' to skip: "
-if /I "%c%" EQU "N" goto NoDynaTuning
-1>NUL reg import "%~dp0\..\lib\inteldptf.reg"
-
-:NoDynaTuning
 echo "    - Beginning registry changes"
 1>NUL reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\0012ee47-9041-4b5d-9b77-535fba8b1442\80e3c60e-bb94-4ad8-bbe0-0d3195efc663" /v "Attributes" /t REG_DWORD /d 2 /f
 1>NUL reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\0012ee47-9041-4b5d-9b77-535fba8b1442\0b2d69d7-a2a1-449c-9680-f91c70521c60" /v "Attributes" /t REG_DWORD /d 2 /f
