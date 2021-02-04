@@ -45,6 +45,10 @@ rem Advanced Settings for Colour
 1>NUL "%~dp0ViVeTool.exe" addconfig 12259052 2
 rem New UI for the Battery Settings Page
 1>NUL "%~dp0ViVeTool.exe" addconfig 27296756 2
+rem New UI for the Touch Keyboard
+1>NUL "%~dp0ViVeTool.exe" addconfig 23324166 2
+1>NUL "%~dp0ViVeTool.exe" addconfig 30024318 2
+1>NUL "%~dp0ViVeTool.exe" addconfig 27154708 2
 
 echo "    - DirectX Performance Enhancements"
 echo "If you do not wish to have this feature, please skip this section."
