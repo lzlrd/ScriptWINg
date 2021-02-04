@@ -49,6 +49,8 @@ rem New UI for the Touch Keyboard
 1>NUL "%~dp0ViVeTool.exe" addconfig 23324166 2
 1>NUL "%~dp0ViVeTool.exe" addconfig 30024318 2
 1>NUL "%~dp0ViVeTool.exe" addconfig 27154708 2
+rem Acrylic Blur on the Input Switcher
+1>NUL "%~dp0ViVeTool.exe" addconfig 13140185 2
 
 echo "    - DirectX Performance Enhancements"
 echo "If you do not wish to have this feature, please skip this section."
