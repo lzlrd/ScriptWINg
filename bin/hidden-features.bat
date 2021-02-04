@@ -41,6 +41,19 @@ rem App Archival
 1>NUL "%~dp0ViVeTool.exe" addconfig 21206371 2
 1>NUL "%~dp0ViVeTool.exe" addconfig 28384772 2
 
+echo "    - DirectX Performance Enhancements"
+echo "If you do not wish to have this feature, please skip this section."
+set /P c="Type 'Y' to continue, or 'N' to skip: "
+if /I "%c%" EQU "N" goto NoDXPerf
+
+rem Deferred Contexts for D3D11on12
+1>NUL "%~dp0ViVeTool.exe" 13815251 2
+rem DirectX Core System File Mappings
+1>NUL "%~dp0ViVeTool.exe" 22765950 2
+rem DXGI Buffer Upgrades
+1>NUL "%~dp0ViVeTool.exe" 25957903 2
+
+:NoDXPerf
 echo "    - Enabling News and Interests"
 echo "If you do not wish to have this feature, please skip this section."
 set /P c="Type 'Y' to continue, or 'N' to skip: "
