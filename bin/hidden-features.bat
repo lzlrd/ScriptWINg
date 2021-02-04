@@ -40,6 +40,9 @@ rem Windows 10X OOBE
 rem App Archival
 1>NUL "%~dp0ViVeTool.exe" addconfig 21206371 2
 1>NUL "%~dp0ViVeTool.exe" addconfig 28384772 2
+rem Advanced Settings for Colour
+1>NUL "%~dp0ViVeTool.exe" addconfig 10834416 2
+1>NUL "%~dp0ViVeTool.exe" addconfig 12259052 2
 
 echo "    - DirectX Performance Enhancements"
 echo "If you do not wish to have this feature, please skip this section."
