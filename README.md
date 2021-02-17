@@ -28,6 +28,10 @@ Installed the latest Windows 10 build but not seeing those hot new features on T
 
 Paid for that expensive JoyPixels SVG-in-OT font and tired of seeing Microsoft's bold circles on your device? Well, even if you didn't, feel free to chuck that TTF over in lib/ (as JoyPixels-SVG.ttf) and run this script to have a nicer set of emoji on Windows.
 
+### Kernel Tune
+
+Windows may not have as many command-line options as Linux does, but there are a few useful ones out there. This script switches the clocksource to TSC, enables large pages for Hyper-V, enforces entropy collection from the TPM, and more.
+
 ### Return Recents
 
 Tuned down Office 365's tracking but noticed Recent Documents are no longer appearing? Yeah, we got you there mate. This script reverses any changes to recent documents feature in order to make use of that massive empty space Microsoft added to the new Office apps' "homepage".
