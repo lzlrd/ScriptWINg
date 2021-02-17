@@ -42,7 +42,7 @@ Sometimes you'll feel like a maniac and use Windows 10 while needing to protect 
 
 ## License
 
-All ScriptWINg code is licensed under tha AGPLv3, with the exception of ViVeTool (`bin/Albacore.ViVe.dll` and `bin/ViVeTool.exe`) which is licensed under the GPLv3 and Install WIM Tweak (`bin/install_wim_tweak.exe`).
+All ScriptWINg code is licensed under tha AGPLv3, with the exception of ViVeTool (`bin/Albacore.ViVe.dll` and `bin/ViVeTool.exe`) which is licensed under the GPLv3.
 
 ## Credits
 
