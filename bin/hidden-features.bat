@@ -1,3 +1,4 @@
+@echo off
 title "ScriptWINg: Hidden Features"
 cls
 

@@ -1,3 +1,4 @@
+@echo off
 title "ScriptWINg: Faster Animations"
 cls
 

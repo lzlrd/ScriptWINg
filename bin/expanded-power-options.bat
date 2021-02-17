@@ -1,3 +1,4 @@
+@echo off
 title "ScriptWINg: Expanded Power Options"
 cls
 
