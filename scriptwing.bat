@@ -15,18 +15,20 @@ echo "      2) Clean Desktop"
 echo "      3) Expanded Power Options"
 echo "      4) Faster Animations"
 echo "      5) Hidden Features"
-echo "      6) Return Recents"
-echo "      7) Tracker Killer"
-echo "      8) VPN Fixes"
+echo "      6) JoyPixels Systemwide"
+echo "      7) Return Recents"
+echo "      8) Tracker Killer"
+echo "      9) VPN Fixes"
 set /P c="Enter the number corresponding to the script you'd like to run: "
 if /I "%c%" EQU "1" goto AdguardDoh
 if /I "%c%" EQU "2" goto CleanDesktop
 if /I "%c%" EQU "3" goto ExpandedPowerOptions
 if /I "%c%" EQU "4" goto FasterAnimations
 if /I "%c%" EQU "5" goto HiddenFeatures
-if /I "%c%" EQU "6" goto ReturnRecents
-if /I "%c%" EQU "7" goto TrackerKiller
-if /I "%c%" EQU "8" goto VpnFixes
+if /I "%c%" EQU "6" goto JoyPixelsSystemwide
+if /I "%c%" EQU "7" goto ReturnRecents
+if /I "%c%" EQU "8" goto TrackerKiller
+if /I "%c%" EQU "9" goto VpnFixes
 goto End
 
 :AdguardDoh
@@ -47,6 +49,10 @@ goto End
 
 :HiddenFeatures
 call "%~dp0\bin\hidden-features.bat"
+goto End
+
+:JoyPixelsSystemwide
+call "%~dp0\bin\joypixels-systemwide.bat"
 goto End
 
 :ReturnRecents

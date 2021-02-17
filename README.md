@@ -24,6 +24,10 @@ I'm sure we can all agree that Windows 10 could be much more responsive. Maybe a
 
 Installed the latest Windows 10 build but not seeing those hot new features on Twitter? This script triggers Windows' A/B testing mechanism to enable them for you. You can thank me later.
 
+### JoyPixels Systemwide
+
+Paid for that expensive JoyPixels SVG-in-OT font and tired of seeing Microsoft's bold circles on your device? Well, even if you didn't, feel free to chuck that TTF over in lib/ (as JoyPixels-SVG.ttf) and run this script to have a nicer set of emoji on Windows.
+
 ### Return Recents
 
 Tuned down Office 365's tracking but noticed Recent Documents are no longer appearing? Yeah, we got you there mate. This script reverses any changes to recent documents feature in order to make use of that massive empty space Microsoft added to the new Office apps' "homepage".
@@ -51,3 +55,5 @@ Thanks to [Lucas](https://github.com/thebookisclosed) for [ViVeTool](https://git
 ~~Thanks to Twitter for spamming me with feature configs.~~
 
 Thanks to [WinAero](https://winaero.com) for their [Windows Defender Firewall rules](https://winaero.com/blog/stop-windows-10-spying-on-you-using-just-windows-firewall) which is used in [Tracker Killer](#trackerkiller).
+
+Thanks to [Brad Erickson](https://github.com/13rac1) for their work on [twemoji-color-font](https://github.com/eosrei/twemoji-color-font) which helped write the base of [JoyPixels Systemwide](#joyPixelssystemwide).
