@@ -122,10 +122,11 @@ rem News and Interests
 1>NUL "%~dp0ViVeTool.exe" addconfig 30213886 2
 
 :NoNewsFeed
-rem x86_64 Emulation for ARM
 if "%PROCESSOR_ARCHITECTURE%" == "ARM64" (
+	rem AMD64 Emulation for ARM64
 	1>NUL "%~dp0ViVeTool.exe" addconfig 24819336 2
 	1>NUL "%~dp0ViVeTool.exe" addconfig 29359153 2
+	1>NUL "%~dp0ViVeTool.exe" addconfig 30022433 2
 )
 
 echo "    - Beginning registry changes"
