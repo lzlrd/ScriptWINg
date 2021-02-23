@@ -86,6 +86,10 @@ rem Device Health Improvements
 1>NUL "%~dp0ViVeTool.exe" addconfig 30091733 2
 rem Modern Animations for Input View
 1>NUL "%~dp0ViVeTool.exe" addconfig 29650567 2
+rem TLS 1.3 for EAP
+1>NUL "%~dp0ViVeTool.exe" addconfig 31308504 2
+1>NUL "%~dp0ViVeTool.exe" addconfig 31308502 2
+1>NUL "%~dp0ViVeTool.exe" addconfig 31308506 2
 
 echo "    - DirectX Performance Enhancements"
 echo "If you do not wish to have this feature, please skip this section."
