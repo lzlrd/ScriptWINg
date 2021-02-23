@@ -84,6 +84,8 @@ rem Acrylic Task View in Timeline
 1>NUL "%~dp0ViVeTool.exe" addconfig 12520383 2
 rem Device Health Improvements
 1>NUL "%~dp0ViVeTool.exe" addconfig 30091733 2
+rem Modern Animations for Input View
+1>NUL "%~dp0ViVeTool.exe" addconfig 29650567 2
 
 echo "    - DirectX Performance Enhancements"
 echo "If you do not wish to have this feature, please skip this section."
