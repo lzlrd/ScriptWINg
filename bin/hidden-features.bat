@@ -52,6 +52,34 @@ rem New UI for the Touch Keyboard
 1>NUL "%~dp0ViVeTool.exe" addconfig 27154708 2
 rem Acrylic Blur on the Input Switcher
 1>NUL "%~dp0ViVeTool.exe" addconfig 13140185 2
+rem Settings Enhancements and Rejuvenation
+1>NUL "%~dp0ViVeTool.exe" addconfig 30206630 2
+1>NUL "%~dp0ViVeTool.exe" addconfig 31010280 2
+1>NUL "%~dp0ViVeTool.exe" addconfig 30204574 2
+1>NUL "%~dp0ViVeTool.exe" addconfig 29449858 2
+1>NUL "%~dp0ViVeTool.exe" addconfig 30204206 2
+1>NUL "%~dp0ViVeTool.exe" addconfig 31197890 2
+1>NUL "%~dp0ViVeTool.exe" addconfig 29643556 2
+1>NUL "%~dp0ViVeTool.exe" addconfig 30381770 2
+1>NUL "%~dp0ViVeTool.exe" addconfig 29734477 2
+1>NUL "%~dp0ViVeTool.exe" addconfig 30580687 2
+1>NUL "%~dp0ViVeTool.exe" addconfig 30380766 2
+1>NUL "%~dp0ViVeTool.exe" addconfig 30030725 2
+1>NUL "%~dp0ViVeTool.exe" addconfig 29896902 2
+1>NUL "%~dp0ViVeTool.exe" addconfig 31291312 2
+1>NUL "%~dp0ViVeTool.exe" addconfig 29739067 2
+1>NUL "%~dp0ViVeTool.exe" addconfig 29029980 2
+1>NUL "%~dp0ViVeTool.exe" addconfig 30331247 2
+1>NUL "%~dp0ViVeTool.exe" addconfig 30832672 2
+1>NUL "%~dp0ViVeTool.exe" addconfig 25977668 2
+1>NUL "%~dp0ViVeTool.exe" addconfig 31198568 2
+1>NUL "%~dp0ViVeTool.exe" addconfig 31199967 2
+1>NUL "%~dp0ViVeTool.exe" addconfig 31401318 2
+1>NUL "%~dp0ViVeTool.exe" addconfig 31065128 2
+1>NUL "%~dp0ViVeTool.exe" addconfig 30095024 2
+1>NUL "%~dp0ViVeTool.exe" addconfig 29241208 2
+1>NUL "%~dp0ViVeTool.exe" addconfig 29241309 2
+1>NUL "%~dp0ViVeTool.exe" addconfig 25810627 2
 
 echo "    - DirectX Performance Enhancements"
 echo "If you do not wish to have this feature, please skip this section."
