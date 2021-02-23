@@ -94,6 +94,8 @@ rem DirectX Core System File Mappings
 1>NUL "%~dp0ViVeTool.exe" 22765950 2
 rem DXGI Buffer Upgrades
 1>NUL "%~dp0ViVeTool.exe" 25957903 2
+rem DXGI Windowed Swap Effect Upgrades
+1>NUL "%~dp0ViVeTool.exe" 23990563 2
 
 :NoDXPerf
 echo "    - Enabling News and Interests"
