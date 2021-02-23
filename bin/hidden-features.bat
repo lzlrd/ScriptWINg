@@ -80,6 +80,8 @@ rem Settings Enhancements and Rejuvenation
 1>NUL "%~dp0ViVeTool.exe" addconfig 29241208 2
 1>NUL "%~dp0ViVeTool.exe" addconfig 29241309 2
 1>NUL "%~dp0ViVeTool.exe" addconfig 25810627 2
+rem Acrylic Task View in Timeline
+1>NUL "%~dp0ViVeTool.exe" addconfig 12520383 2
 
 echo "    - DirectX Performance Enhancements"
 echo "If you do not wish to have this feature, please skip this section."
