@@ -50,7 +50,9 @@ All ScriptWINg code is licensed under tha AGPLv3, with the exception of ViVeTool
 
 ## Credits
 
-Thanks to Federico Dossena for his [Windows 10 Privacy Guide](https://github.com/adolfintel/Windows10-Privacy), which was inspiration for [Tracker Killer](#trackerkiller).
+Thanks to [Brad Erickson](https://github.com/13rac1) for their work on [twemoji-color-font](https://github.com/eosrei/twemoji-color-font) which helped write the base of [JoyPixels Systemwide](#joypixels-systemwide).
+
+Thanks to [Federico Dossena](https://github.com/adolfintel) for his [Windows 10 Privacy Guide](https://github.com/adolfintel/Windows10-Privacy), which was inspiration for [Tracker Killer](#tracker-killer).
 
 Thanks to [Lacia](https://github.com/Lyceris-chan) for their work on ~~forcing~~ helping me to rewrite ScriptWINg.
 
@@ -58,6 +60,4 @@ Thanks to [Lucas](https://github.com/thebookisclosed) for [ViVeTool](https://git
 
 ~~Thanks to Twitter for spamming me with feature configs.~~
 
-Thanks to [WinAero](https://winaero.com) for their [Windows Defender Firewall rules](https://winaero.com/blog/stop-windows-10-spying-on-you-using-just-windows-firewall) which is used in [Tracker Killer](#trackerkiller).
-
-Thanks to [Brad Erickson](https://github.com/13rac1) for their work on [twemoji-color-font](https://github.com/eosrei/twemoji-color-font) which helped write the base of [JoyPixels Systemwide](#joyPixelssystemwide).
+Thanks to [Winaero](https://winaero.com) for their [Windows Defender Firewall rules](https://winaero.com/blog/stop-windows-10-spying-on-you-using-just-windows-firewall) which is used in [Tracker Killer](#tracker-killer).
