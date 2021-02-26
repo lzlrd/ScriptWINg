@@ -163,7 +163,7 @@ echo "    - Removing Microsoft Edge"
 echo "Make sure to have installed another browser beforehand."
 set /P c="Type 'Y' to continue removing Edge, or 'N' to skip this section: "
 if /I "%c%" EQU "Y" goto EdgeRemoval
-goto End
+goto QuestionBlockCortana
 
 :EdgeRemoval
 1>NUL taskkill /F /IM "browser_broker.exe"
@@ -175,6 +175,16 @@ goto End
 1>NUL del /F /Q "C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe_BAK"
 1>NUL reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\MicrosoftEdge.exe" /v Debugger /t REG_SZ /d "C:\Windows\System32\taskkill.exe" /f
 1>NUL reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\msedge.exe" /v Debugger /t REG_SZ /d "C:\Windows\System32\taskkill.exe" /f
+
+:QuestionBlockCortana
+echo "    - Blocking Cortana"
+echo "This will stop Cortana from being able to stay in the background (by killing it on run)."
+set /P c="Type 'Y' to continue blocking Cortana, or 'N' to skip this section: "
+if /I "%c%" EQU "Y" goto BlockCortana
+goto End
+
+:BlockCortana
+1>NUL reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\Cortana.exe" /v Debugger /t REG_SZ /d "C:\Windows\System32\taskkill.exe" /f
 
 :End
 cls
