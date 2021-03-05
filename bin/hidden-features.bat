@@ -114,6 +114,10 @@ rem Thumbnail Cache Updates
 1>NUL "%~dp0ViVeTool.exe" addconfig 19173096 2
 rem New Search and Cortana
 1>NUL "%~dp0ViVeTool.exe" addconfig 19263623 2
+rem Modern UX for Voice Typing
+1>NUL "%~dp0ViVeTool.exe" addconfig 24781215 2
+rem Expand Voice Typing Supported Language
+1>NUL "%~dp0ViVeTool.exe" addconfig 29609459 2
 
 echo "    - DirectX Performance Enhancements"
 echo "If you do not wish to have this feature, please skip this section."
