@@ -97,6 +97,8 @@ rem Bluetooth Flyout
 1>NUL "%~dp0ViVeTool.exe" addconfig 19919111 2
 rem Display Sleep Power Settings
 1>NUL "%~dp0ViVeTool.exe" addconfig 31026792 2
+rem FIDO 2.1
+1>NUL "%~dp0ViVeTool.exe" addconfig 27870272 2
 
 echo "    - DirectX Performance Enhancements"
 echo "If you do not wish to have this feature, please skip this section."
