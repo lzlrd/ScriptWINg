@@ -112,6 +112,8 @@ rem Redirect Programs and Features to UWP Settings
 1>NUL "%~dp0ViVeTool.exe" addconfig 26003950 2
 rem Thumbnail Cache Updates
 1>NUL "%~dp0ViVeTool.exe" addconfig 19173096 2
+rem New Search and Cortana
+1>NUL "%~dp0ViVeTool.exe" addconfig 19263623 2
 
 echo "    - DirectX Performance Enhancements"
 echo "If you do not wish to have this feature, please skip this section."
