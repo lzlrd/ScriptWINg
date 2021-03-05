@@ -102,6 +102,9 @@ rem FIDO 2.1
 rem Modern Search
 1>NUL "%~dp0ViVeTool.exe" addconfig 20383964 2
 1>NUL "%~dp0ViVeTool.exe" addconfig 21206249 2
+rem New Devices Flow Connect UI
+1>NUL "%~dp0ViVeTool.exe" addconfig 23673473 2
+1>NUL "%~dp0ViVeTool.exe" addconfig 20447509 2
 
 echo "    - DirectX Performance Enhancements"
 echo "If you do not wish to have this feature, please skip this section."
