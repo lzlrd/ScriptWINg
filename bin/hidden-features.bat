@@ -107,6 +107,8 @@ rem New Devices Flow Connect UI
 1>NUL "%~dp0ViVeTool.exe" addconfig 20447509 2
 rem Optimised Window Position and Size Updates
 1>NUL "%~dp0ViVeTool.exe" addconfig 30134375 2
+rem Redirect Programs and Features to UWP Settings
+1>NUL "%~dp0ViVeTool.exe" addconfig 26003950 2
 
 echo "    - DirectX Performance Enhancements"
 echo "If you do not wish to have this feature, please skip this section."
