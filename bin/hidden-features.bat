@@ -95,6 +95,8 @@ rem New Bluetooh Inbound Pairing UI
 rem Bluetooth Flyout
 1>NUL "%~dp0ViVeTool.exe" addconfig 23673487 2
 1>NUL "%~dp0ViVeTool.exe" addconfig 19919111 2
+rem Display Sleep Power Settings
+1>NUL "%~dp0ViVeTool.exe" addconfig 31026792 2
 
 echo "    - DirectX Performance Enhancements"
 echo "If you do not wish to have this feature, please skip this section."
