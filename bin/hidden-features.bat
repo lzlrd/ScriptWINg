@@ -122,8 +122,6 @@ rem Windows Spotlight v3
 1>NUL "%~dp0ViVeTool.exe" addconfig 11024039 2
 rem Device Usage Settings Page
 1>NUL "%~dp0ViVeTool.exe" addconfig 25810627 2
-rem Windows Spotlight Wallpapers
-1>NUL "%~dp0ViVeTool.exe" addconfig 26008405 2
 
 echo "    - DirectX Performance Enhancements"
 echo "If you do not wish to have this feature, please skip this section."
