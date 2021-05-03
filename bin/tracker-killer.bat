@@ -166,6 +166,7 @@ if /I "%c%" EQU "Y" goto EdgeRemoval
 goto QuestionBlockCortana
 
 :EdgeRemoval
+echo "    - Removing Microsoft Edge (Legacy)"
 1>NUL taskkill /F /IM "browser_broker.exe"
 1>NUL taskkill /F /IM "RuntimeBroker.exe"
 1>NUL taskkill /F /IM "MicrosoftEdge.exe"
@@ -174,7 +175,8 @@ goto QuestionBlockCortana
 1>NUL move "C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe" "C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe_BAK"
 1>NUL del /F /Q "C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe_BAK"
 1>NUL reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\MicrosoftEdge.exe" /v Debugger /t REG_SZ /d "C:\Windows\System32\taskkill.exe" /f
-1>NUL reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\msedge.exe" /v Debugger /t REG_SZ /d "C:\Windows\System32\taskkill.exe" /f
+echo "Windows 10 now relies on Microsoft Edge (Chromium) and it's WebView2, and as such we can no longer block it from running. Instead, you should install your own browser and set it as the default."
+1>NUL reg del /F "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\msedge.exe"
 
 :QuestionBlockCortana
 echo "    - Blocking Cortana"
