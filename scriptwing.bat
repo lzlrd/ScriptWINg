@@ -10,6 +10,7 @@ if not "%errorlevel%" == "0" (
 	exit /b 1
 )
 
+:Menuuu
 echo "    - Select the script you'd like to run"
 echo "      1) Adguard DoH"
 echo "      2) Clean Desktop"
@@ -36,43 +37,43 @@ goto End
 
 :AdguardDoh
 call "%~dp0\bin\adguard-doh.bat"
-goto End
+goto Menuuu
 
 :CleanDesktop
 call "%~dp0\bin\clean-desktop.bat"
-goto End
+goto Menuuu
 
 :ExpandedPowerOptions
 call "%~dp0\bin\expanded-power-options.bat"
-goto End
+goto Menuuu
 
 :FasterAnimations
 call "%~dp0\bin\faster-animations.bat"
-goto End
+goto Menuuu
 
 :HiddenFeatures
 call "%~dp0\bin\hidden-features.bat"
-goto End
+goto Menuuu
 
 :JoyPixelsSystemwide
 call "%~dp0\bin\joypixels-systemwide.bat"
-goto End
+goto Menuuu
 
 :KernelTune
 call "%~dp0\bin\kernel-tune.bat"
-goto End
+goto Menuuu
 
 :ReturnRecents
 call "%~dp0\bin\return-recents.bat"
-goto End
+goto Menuuu
 
 :TrackerKiller
 call "%~dp0\bin\tracker-killer.bat"
-goto End
+goto Menuuu
 
 :VpnFixes
 call "%~dp0\bin\vpn-fixes.bat"
-goto End
+goto Menuuu
 
 :End
 cls
