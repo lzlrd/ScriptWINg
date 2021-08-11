@@ -1,5 +1,5 @@
 @echo off
-title "ScriptWINg: AdGuard DoH"
+title "ScriptWINg: Mullvad DoH"
 cls
 
 net session >nul 2>nul
@@ -10,21 +10,14 @@ if not "%errorlevel%" == "0" (
 	exit /b 1
 )
 
-echo "    - Adding DoH entries for AdGuard"
-1>NUL netsh dns add encryption server=94.140.14.14 dohtemplate=https://dns.adguard.com/dns-query
-1>NUL netsh dns add encryption server=94.140.15.15 dohtemplate=https://dns.adguard.com/dns-query
-1>NUL netsh dns add encryption server=2a10:50c0::ad1:ff dohtemplate=https://dns.adguard.com/dns-query
-1>NUL netsh dns add encryption server=2a10:50c0::ad2:ff dohtemplate=https://dns.adguard.com/dns-query
+echo "    - Adding DoH entries for Mullvad"
+1>NUL netsh dns add encryption server=194.242.2.2 dohtemplate=https://doh.mullvad.net/dns-query
+1>NUL netsh dns add encryption server=193.19.108.2 dohtemplate=https://doh.mullvad.net/dns-query
+1>NUL netsh dns add encryption server=2a07:e340::2 dohtemplate=https://doh.mullvad.net/dns-query
 
-1>NUL netsh dns add encryption server=94.140.14.15 dohtemplate=https://dns-family.adguard.com/dns-query
-1>NUL netsh dns add encryption server=94.140.15.16 dohtemplate=https://dns-family.adguard.com/dns-query
-1>NUL netsh dns add encryption server=2a10:50c0::bad1:ff dohtemplate=https://dns-family.adguard.com/dns-query
-1>NUL netsh dns add encryption server=2a10:50c0::bad2:ff dohtemplate=https://dns-family.adguard.com/dns-query
-
-1>NUL netsh dns add encryption server=94.140.14.140 dohtemplate=https://dns-unfiltered.adguard.com/dns-query
-1>NUL netsh dns add encryption server=94.140.14.141 dohtemplate=https://dns-unfiltered.adguard.com/dns-query
-1>NUL netsh dns add encryption server=2a10:50c0::1:ff dohtemplate=https://dns-unfiltered.adguard.com/dns-query
-1>NUL netsh dns add encryption server=2a10:50c0::2:ff dohtemplate=https://dns-unfiltered.adguard.com/dns-query
+1>NUL netsh dns add encryption server=194.242.2.3 dohtemplate=https://adblock.doh.mullvad.net/dns-query
+1>NUL netsh dns add encryption server=193.19.108.3 dohtemplate=https://adblock.doh.mullvad.net/dns-query
+1>NUL netsh dns add encryption server=2a07:e340::3 dohtemplate=https://adblock.doh.mullvad.net/dns-query
 
 cls
 exit /b 0
